@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Exception;
 
-class FileUploader
+class fileuploader
 {
     public static function uploadFile(Request $req) {
         // Consider setting these in the php.ini or Laravel config file
