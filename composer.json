@@ -2,10 +2,11 @@
     "name": "gpit/fileuploader",
     "autoload": {
         "psr-4": {
-            "Gpit\\Fileuploader\\": "src/"
+            "gpit\\fileuploader\\": "src/"
         }
     },
     "require": {
+        "php": "^8.0",
         "illuminate/support": "^11.22"
     }
 }
