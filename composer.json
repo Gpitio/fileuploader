@@ -5,7 +5,5 @@
             "Gpit\\Fileuploader\\": "src/"
         }
     },
-    "require": {
-        "illuminate/support": "^11.22"
-    }
+    "require": {}
 }
