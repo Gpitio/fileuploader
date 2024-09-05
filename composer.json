@@ -1,0 +1,11 @@
+{
+    "name": "gpit/fileuploader",
+    "autoload": {
+        "psr-4": {
+            "Gpit\\Fileuploader\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "^11.22"
+    }
+}
