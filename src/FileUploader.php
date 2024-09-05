@@ -6,10 +6,9 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Exception;
 
-class fileuploader
+class FileUploader
 {
     public static function uploadFile(Request $req) {
-        // Consider setting these in the php.ini or Laravel config file
         ini_set('max_execution_time', 600);
         ini_set('upload_max_filesize', '50M');
         ini_set('post_max_size', '50M');
