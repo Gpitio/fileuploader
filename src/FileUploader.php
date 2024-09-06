@@ -8,7 +8,7 @@ use Exception;
 
 class FileUploader
 {
-    public static function uploadFile(Request $req) {
+    public static function uploadFile(Request $req, $path = 'files/') {
         ini_set('max_execution_time', 600);
         ini_set('upload_max_filesize', '50M');
         ini_set('post_max_size', '50M');
@@ -22,7 +22,7 @@ class FileUploader
             }
 
             $filename = uniqid() . '_' . basename($name);
-            $pathname = "files/" . $filename;
+            $pathname = $path . $filename;
 
             if (!self::isValidBase64($file)) {
                 throw new Exception('Invalid base64 file data.');
