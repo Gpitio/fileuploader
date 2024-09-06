@@ -5,7 +5,7 @@
 You can install the package via Composer. If you're using the `dev-main` branch, you can require it like this:
 
 ```bash
-composer require gpit/fileuploader:dev-main
+composer require gpit/fileuploader
 ```
 
 ## Basic Usage Example
