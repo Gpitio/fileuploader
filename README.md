@@ -25,7 +25,7 @@ class ProfileController extends Controller
     public function profileImg(Request $req)
     {
         // Optional custom path
-        $customPath = 'profile/images/';
+        $customPath = 'profile/images';
         
         // Use FileUploader with the custom path
         $result = FileUploader::uploadFile($req, $customPath);
