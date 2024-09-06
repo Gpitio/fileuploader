@@ -56,7 +56,7 @@ class ProfileController extends Controller
 If no custom path is provided, the default upload path is files/. You can override this by passing a second argument to the uploadFile method:
 
 ```php
-    $customPath = 'profile/images/';
+    $customPath = 'profile/images';
     FileUploader::uploadFile($request, $customPath); // Files will be uploaded to 'profile/images/'
 ```
 
