@@ -22,7 +22,7 @@ class FileUploader
             }
 
             $filename = uniqid() . '_' . basename($name);
-            $pathname = $path . $filename;
+            $pathname = $path . '/' . $filename;
 
             if (!self::isValidBase64($file)) {
                 throw new Exception('Invalid base64 file data.');
