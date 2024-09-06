@@ -1,3 +1,3 @@
 # fileuploader
 
-composer require gpit/fileuploader
+composer require gpit/fileuploader:dev-main
