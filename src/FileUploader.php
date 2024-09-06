@@ -8,7 +8,7 @@ use Exception;
 
 class FileUploader
 {
-    public static function uploadFile(Request $req, $path = 'files/') {
+    public static function uploadFile(Request $req, $path = 'files') {
         ini_set('max_execution_time', 600);
         ini_set('upload_max_filesize', '50M');
         ini_set('post_max_size', '50M');
