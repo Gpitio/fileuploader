@@ -2,7 +2,7 @@
 
 ## Installation
 
-You can install the package via Composer. If you're using the `dev-main` branch, you can require it like this:
+You can install the package via Composer.
 
 ```bash
 composer require gpit/fileuploader
